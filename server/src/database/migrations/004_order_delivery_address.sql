@@ -1,0 +1,3 @@
+ALTER TABLE orders ADD COLUMN delivery_region TEXT NOT NULL DEFAULT '';
+ALTER TABLE orders ADD COLUMN delivery_street TEXT NOT NULL DEFAULT '';
+ALTER TABLE orders ADD COLUMN delivery_apartment TEXT NOT NULL DEFAULT '';
